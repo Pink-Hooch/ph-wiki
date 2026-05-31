@@ -17,6 +17,11 @@ The website will be available at `http://localhost:3000`. It will automatically 
 You may contribute to this wiki by editing the markdown files in the `docs` directory.
 Open a pull request with your changes for review.
 
+By contributing to this repository, you agree that your contributions will be licensed under the licences used by this repository:
+
+- Code/config contributions: MIT License
+- Wiki/content contributions: CC BY-NC-SA 4.0
+
 ## Issues
 
 Issues can be reported [here](https://github.com/PinkHooch/wiki/issues).
