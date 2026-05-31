@@ -1,0 +1,147 @@
+/**
+ * Global CSS for the Pink Hooch Wiki.
+ */
+
+/* Light mode */
+:root {
+  --ifm-color-primary: #c026d3;
+  --ifm-color-primary-dark: #a21caf;
+  --ifm-color-primary-darker: #86198f;
+  --ifm-color-primary-darkest: #701a75;
+  --ifm-color-primary-light: #d946ef;
+  --ifm-color-primary-lighter: #e879f9;
+  --ifm-color-primary-lightest: #fae8ff;
+
+  --ifm-background-color: #fff7ff;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #1f1027;
+
+  --ifm-font-color-base: #241029;
+  --ifm-heading-color: #701a75;
+
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --docusaurus-highlighted-code-line-bg: rgba(217, 70, 239, 0.12);
+}
+
+/* Dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #f0abfc;
+  --ifm-color-primary-dark: #e879f9;
+  --ifm-color-primary-darker: #d946ef;
+  --ifm-color-primary-darkest: #c026d3;
+  --ifm-color-primary-light: #fae8ff;
+  --ifm-color-primary-lighter: #fce7f3;
+  --ifm-color-primary-lightest: #ffffff;
+
+  --ifm-background-color: #100716;
+  --ifm-background-surface-color: #1a0f22;
+  --ifm-navbar-background-color: #160b1d;
+  --ifm-footer-background-color: #0b0410;
+
+  --ifm-font-color-base: #f7eaff;
+  --ifm-heading-color: #f0abfc;
+
+  --docusaurus-highlighted-code-line-bg: rgba(240, 171, 252, 0.18);
+}
+
+/* Whole page background */
+html[data-theme='light'],
+html[data-theme='light'] body {
+  background: #fff7ff;
+}
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background: #100716;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 12px rgba(134, 25, 143, 0.12);
+}
+
+html[data-theme='dark'] .navbar {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+
+.navbar__title {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+/* Homepage hero - light mode */
+html[data-theme='light'] .hero {
+  background: linear-gradient(135deg, #fae8ff 0%, #f5d0fe 45%, #fbcfe8 100%);
+  color: #581c87;
+}
+
+/* Homepage hero - dark mode */
+html[data-theme='dark'] .hero {
+  background: linear-gradient(135deg, #120818 0%, #3b0764 45%, #701a75 100%);
+  color: #ffffff;
+}
+
+.hero__title {
+  font-weight: 900;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+}
+
+/* Buttons */
+.button--primary {
+  border-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  border-color: var(--ifm-color-primary-dark);
+  background-color: var(--ifm-color-primary-dark);
+}
+
+/* Cards */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(134, 25, 143, 0.08);
+}
+
+html[data-theme='dark'] .card {
+  background: #1a0f22;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Docs content */
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  font-weight: 800;
+  color: var(--ifm-heading-color);
+}
+
+/* Tables */
+table {
+  display: table;
+  width: 100%;
+}
+
+html[data-theme='light'] table th {
+  background-color: rgba(217, 70, 239, 0.12);
+}
+
+html[data-theme='dark'] table th {
+  background-color: rgba(240, 171, 252, 0.12);
+}
+
+/* Code */
+code {
+  border-radius: 6px;
+}
+
+/* Footer */
+.footer {
+  background: var(--ifm-footer-background-color);
+}
