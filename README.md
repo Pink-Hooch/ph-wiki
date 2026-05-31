@@ -23,5 +23,6 @@ Issues can be reported [here](https://github.com/PinkHooch/wiki/issues).
 
 ## Translations
 
-Contribute to translations [here](https://crowdin.com/project/pinkhooch).
+Contribute to translations [here](https://crowdin.com/project/pink-hooch-public-wiki).
+
 Request a new language by opening an issue [here](https://github.com/Pink-Hooch/ph-wiki/issues).
