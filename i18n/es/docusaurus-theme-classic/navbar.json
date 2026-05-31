@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "Pink Hooch Wiki",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Pink Hooch Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Getting Started": {
+    "message": "Getting Started",
+    "description": "Navbar item with label Getting Started"
+  },
+  "item.label.Commands": {
+    "message": "Commands",
+    "description": "Navbar item with label Commands"
+  },
+  "item.label.Rules": {
+    "message": "Rules",
+    "description": "Navbar item with label Rules"
+  },
+  "item.label.Main Website": {
+    "message": "Main Website",
+    "description": "Navbar item with label Main Website"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

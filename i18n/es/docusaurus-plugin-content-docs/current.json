@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Commands": {
+    "message": "Commands",
+    "description": "The label for category 'Commands' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Survival SMP": {
+    "message": "Survival SMP",
+    "description": "The label for category 'Survival SMP' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Guilds": {
+    "message": "Guilds",
+    "description": "The label for category 'Guilds' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Guides": {
+    "message": "Guides",
+    "description": "The label for category 'Guides' in sidebar 'tutorialSidebar'"
+  }
+}
