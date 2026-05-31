@@ -102,7 +102,7 @@ const config = {
             label: 'Discord',
           },
           {
-            href: 'https://github.com/Pink-Hooch',
+            href: 'https://github.com/Pink-Hooch/ph-wiki',
             label: 'GitHub',
             position: 'right',
           },
